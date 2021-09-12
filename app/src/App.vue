@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <el-main>
-      <h1>Chemical Balancer</h1>
+      <h1> هاوسەنگی کیمیایی </h1>
       <el-form inline status-icon @submit.native="submit">
         <el-form-item>
           <el-input
-            placeholder="Chemical equation"
+            placeholder="هاوکێشەی کیمیایی بنوسە"
             class="equation"
             v-model="value"
             clearable
@@ -108,7 +108,7 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 60px;
+  font-size: 20px;
   mar-bottom: 10px;
 }
 
